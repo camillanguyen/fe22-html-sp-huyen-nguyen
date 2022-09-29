@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background-image {
+  background-image: url(./images/background.jpeg);
+  /* background: linear-gradient(180deg, black, gray); */
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color: aliceblue;
+}
+
+span {
+  color: #9ABEF5;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.dropdown-menu {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #9ABEF5;
+  transition: .4s;
+}
+
+h1 {
+  color: #9ABEF5;
+  font-size: 75px;
+  margin: 20px 0px 20px;
+}
+
+h3 {
+  color: #919AA8;
+  font-size: 25px;
+}
+
+.mellanrum {
+  color: #919AA8;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  color: #919AA8;
+  font-size: 20px;
+}
+
+.content {
+  height: 70vh;
+  margin: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: aliceblue;
+}
+
+.gray {
+  filter: grayscale(100%);
+  transition: .7s;
+
+}
+
+.gray:hover {
+  filter: grayscale(0%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  height: 12vh;
+  margin-top: 1rem;
+}
+
+.card-title {
+  color: #919AA8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  margin-top: 20px;
+}
+
+.img-col {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.responsive {
+  margin: 20px;
+}
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0px 4px;
+  margin-top:8px ;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (min-width:300px) {
+  h3 {
+    font-size: 10px;
+    margin: 2rem;
+  }
+
+  h1 {
+    font-size: 37px;
+    margin: 2rem;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin: 2rem;
+  }
+
+  .img-col {
+    margin-left: .5rem;
+  }
+  .column{
+    flex: 100%;
+    max-width: 100%;
+  }
+
+
+}
+
+@media screen and (min-width:600px) {
+  h3 {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 75px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+  .column{
+    flex: 50%;
+    max-width: 33%;
+  }
+
+}
+
+/* #919AA8 #9ABEF5 #EFF5EC #A89C91 #F5E8DC *
